@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
 
     <title>Test task</title>
 
@@ -14,289 +13,292 @@
 
   <body>
 
-    <header>
-      <div class="collapse bg-light" id="navbarHeader"> </div>
-      <div class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#" id="title"> Test task </a>
-      </div>
-    </header>
-
-    <form id="searchForm">
-      <div class="form-group row">
-        <div class="col">
-          <input type="text" class="form-control" id="inputSearch" placeholder="Search">
+    <div class="container-xl">
+      <header>
+        <div class="collapse bg-light" id="navbarHeader"> </div>
+        <div class="navbar navbar-light bg-light">
+          <a class="navbar-brand" href="#" id="title"> Test task </a>
         </div>
-        <div class="col-auto">
-          <a href="#" class="btn btn-primary">Submit</a>
+      </header>
+
+      <form id="searchForm" style="margin: 24px 0;">
+        <div class="form-group row">
+          <div class="col">
+            <input type="text" class="form-control" id="inputSearch" placeholder="Search">
+          </div>
+          <div class="col-auto">
+            <a href="#" class="btn btn-primary">Submit</a>
+          </div>
         </div>
-      </div>
-    </form>
+      </form>
 
-    <div class="row row-cols-1 row-cols-md-3">
-      <div class="col mb-4">
-        <div class="card h-100">
-          <img src="sources/img1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-title"> Post #1 </h4>
-            <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, tenetur </p>
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="sources/img1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title"> Post #1 </h4>
+              <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, tenetur </p>
 
-            <!--Tags-->
+              <!--Tags-->
 
-            <p class="card-text"> Categories:
-            <span class="badge badge-secondary"> People </span>
-            <span class="badge badge-secondary"> Tech </span>
-            <span class="badge badge-secondary"> Future </span></p>
+              <p class="card-text"> Categories:
+              <span class="badge badge-secondary"> People </span>
+              <span class="badge badge-secondary"> Tech </span>
+              <span class="badge badge-secondary"> Future </span></p>
 
-            <!--Modal button-->
+              <!--Modal button-->
 
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"> Read more </button>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"> Read more </button>
 
-            <!--Modal--> 
+              <!--Modal--> 
 
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">About post</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat sed ipsum vel scelerisque. Praesent dictum, risus quis luctus eleifend, ligula nulla pharetra tellus, ut egestas libero est sit amet justo. Nulla fermentum, ex eu luctus tincidunt, ligula enim fringilla purus, ut rutrum nibh magna vel sem. </p>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">About post</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat sed ipsum vel scelerisque. Praesent dictum, risus quis luctus eleifend, ligula nulla pharetra tellus, ut egestas libero est sit amet justo. Nulla fermentum, ex eu luctus tincidunt, ligula enim fringilla purus, ut rutrum nibh magna vel sem. </p>
 
-                    <p> Pellentesque sit amet lectus hendrerit, semper lacus at, sollicitudin dui. Cras neque libero, pretium eget nunc ut, rhoncus consectetur mi. Donec lacinia aliquet magna vitae pharetra. Suspendisse potenti. Vestibulum augue purus, bibendum euismod tristique vestibulum, aliquam nec dolor. Mauris non turpis erat. Suspendisse urna enim, mattis non mattis sit amet, porta id tortor. Aenean in odio tortor. </p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <p> Pellentesque sit amet lectus hendrerit, semper lacus at, sollicitudin dui. Cras neque libero, pretium eget nunc ut, rhoncus consectetur mi. Donec lacinia aliquet magna vitae pharetra. Suspendisse potenti. Vestibulum augue purus, bibendum euismod tristique vestibulum, aliquam nec dolor. Mauris non turpis erat. Suspendisse urna enim, mattis non mattis sit amet, porta id tortor. Aenean in odio tortor. </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col mb-4">
-        <div class="card h-100">
-          <img src="sources/img1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-title">Post #2</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, tenetur</p>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="sources/img1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Post #2</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, tenetur</p>
 
-             <!--Tags-->
+               <!--Tags-->
 
-            <p class="card-text"> Categories:
-            <span class="badge badge-secondary"> People </span>
-            <span class="badge badge-secondary"> Tech </span>
-            <span class="badge badge-secondary"> Future </span></p>
+              <p class="card-text"> Categories:
+              <span class="badge badge-secondary"> People </span>
+              <span class="badge badge-secondary"> Tech </span>
+              <span class="badge badge-secondary"> Future </span></p>
 
-            <!--Modal button-->
+              <!--Modal button-->
 
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"> Read more </button>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"> Read more </button>
 
-            <!--Modal--> 
+              <!--Modal--> 
 
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">About post</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat sed ipsum vel scelerisque. Praesent dictum, risus quis luctus eleifend, ligula nulla pharetra tellus, ut egestas libero est sit amet justo. Nulla fermentum, ex eu luctus tincidunt, ligula enim fringilla purus, ut rutrum nibh magna vel sem. </p>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">About post</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat sed ipsum vel scelerisque. Praesent dictum, risus quis luctus eleifend, ligula nulla pharetra tellus, ut egestas libero est sit amet justo. Nulla fermentum, ex eu luctus tincidunt, ligula enim fringilla purus, ut rutrum nibh magna vel sem. </p>
 
-                    <p> Pellentesque sit amet lectus hendrerit, semper lacus at, sollicitudin dui. Cras neque libero, pretium eget nunc ut, rhoncus consectetur mi. Donec lacinia aliquet magna vitae pharetra. Suspendisse potenti. Vestibulum augue purus, bibendum euismod tristique vestibulum, aliquam nec dolor. Mauris non turpis erat. Suspendisse urna enim, mattis non mattis sit amet, porta id tortor. Aenean in odio tortor. </p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <p> Pellentesque sit amet lectus hendrerit, semper lacus at, sollicitudin dui. Cras neque libero, pretium eget nunc ut, rhoncus consectetur mi. Donec lacinia aliquet magna vitae pharetra. Suspendisse potenti. Vestibulum augue purus, bibendum euismod tristique vestibulum, aliquam nec dolor. Mauris non turpis erat. Suspendisse urna enim, mattis non mattis sit amet, porta id tortor. Aenean in odio tortor. </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col mb-4">
-        <div class="card h-100">
-          <img src="sources/img1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-title">Post #3</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, tenetur</p>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="sources/img1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Post #3</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, tenetur</p>
 
-             <!--Tags-->
+               <!--Tags-->
 
-            <p class="card-text"> Categories:
-            <span class="badge badge-secondary"> People </span>
-            <span class="badge badge-secondary"> Tech </span>
-            <span class="badge badge-secondary"> Future </span></p>
+              <p class="card-text"> Categories:
+              <span class="badge badge-secondary"> People </span>
+              <span class="badge badge-secondary"> Tech </span>
+              <span class="badge badge-secondary"> Future </span></p>
 
-            <!--Modal button-->
+              <!--Modal button-->
 
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"> Read more </button>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"> Read more </button>
 
-            <!--Modal--> 
+              <!--Modal--> 
 
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">About post</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat sed ipsum vel scelerisque. Praesent dictum, risus quis luctus eleifend, ligula nulla pharetra tellus, ut egestas libero est sit amet justo. Nulla fermentum, ex eu luctus tincidunt, ligula enim fringilla purus, ut rutrum nibh magna vel sem. </p>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">About post</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat sed ipsum vel scelerisque. Praesent dictum, risus quis luctus eleifend, ligula nulla pharetra tellus, ut egestas libero est sit amet justo. Nulla fermentum, ex eu luctus tincidunt, ligula enim fringilla purus, ut rutrum nibh magna vel sem. </p>
 
-                    <p> Pellentesque sit amet lectus hendrerit, semper lacus at, sollicitudin dui. Cras neque libero, pretium eget nunc ut, rhoncus consectetur mi. Donec lacinia aliquet magna vitae pharetra. Suspendisse potenti. Vestibulum augue purus, bibendum euismod tristique vestibulum, aliquam nec dolor. Mauris non turpis erat. Suspendisse urna enim, mattis non mattis sit amet, porta id tortor. Aenean in odio tortor. </p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <p> Pellentesque sit amet lectus hendrerit, semper lacus at, sollicitudin dui. Cras neque libero, pretium eget nunc ut, rhoncus consectetur mi. Donec lacinia aliquet magna vitae pharetra. Suspendisse potenti. Vestibulum augue purus, bibendum euismod tristique vestibulum, aliquam nec dolor. Mauris non turpis erat. Suspendisse urna enim, mattis non mattis sit amet, porta id tortor. Aenean in odio tortor. </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col mb-4">
-        <div class="card h-100">
-          <img src="sources/img1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-title">Post #4</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, tenetur</p>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="sources/img1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Post #4</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, tenetur</p>
 
-             <!--Tags-->
+               <!--Tags-->
 
-            <p class="card-text"> Categories:
-            <span class="badge badge-secondary"> People </span>
-            <span class="badge badge-secondary"> Tech </span>
-            <span class="badge badge-secondary"> Future </span></p>
+              <p class="card-text"> Categories:
+              <span class="badge badge-secondary"> People </span>
+              <span class="badge badge-secondary"> Tech </span>
+              <span class="badge badge-secondary"> Future </span></p>
 
-            <!--Modal button-->
+              <!--Modal button-->
 
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"> Read more </button>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"> Read more </button>
 
-            <!--Modal--> 
+              <!--Modal--> 
 
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">About post</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat sed ipsum vel scelerisque. Praesent dictum, risus quis luctus eleifend, ligula nulla pharetra tellus, ut egestas libero est sit amet justo. Nulla fermentum, ex eu luctus tincidunt, ligula enim fringilla purus, ut rutrum nibh magna vel sem. </p>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">About post</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat sed ipsum vel scelerisque. Praesent dictum, risus quis luctus eleifend, ligula nulla pharetra tellus, ut egestas libero est sit amet justo. Nulla fermentum, ex eu luctus tincidunt, ligula enim fringilla purus, ut rutrum nibh magna vel sem. </p>
 
-                    <p> Pellentesque sit amet lectus hendrerit, semper lacus at, sollicitudin dui. Cras neque libero, pretium eget nunc ut, rhoncus consectetur mi. Donec lacinia aliquet magna vitae pharetra. Suspendisse potenti. Vestibulum augue purus, bibendum euismod tristique vestibulum, aliquam nec dolor. Mauris non turpis erat. Suspendisse urna enim, mattis non mattis sit amet, porta id tortor. Aenean in odio tortor. </p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <p> Pellentesque sit amet lectus hendrerit, semper lacus at, sollicitudin dui. Cras neque libero, pretium eget nunc ut, rhoncus consectetur mi. Donec lacinia aliquet magna vitae pharetra. Suspendisse potenti. Vestibulum augue purus, bibendum euismod tristique vestibulum, aliquam nec dolor. Mauris non turpis erat. Suspendisse urna enim, mattis non mattis sit amet, porta id tortor. Aenean in odio tortor. </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col mb-4">
-        <div class="card h-100">
-          <img src="sources/img1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-title">Post #5</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, tenetur</p>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="sources/img1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Post #5</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, tenetur</p>
 
-             <!--Tags-->
+               <!--Tags-->
 
-            <p class="card-text"> Categories:
-            <span class="badge badge-secondary"> People </span>
-            <span class="badge badge-secondary"> Tech </span>
-            <span class="badge badge-secondary"> Future </span></p>
+              <p class="card-text"> Categories:
+              <span class="badge badge-secondary"> People </span>
+              <span class="badge badge-secondary"> Tech </span>
+              <span class="badge badge-secondary"> Future </span></p>
 
-            <!--Modal button-->
+              <!--Modal button-->
 
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"> Read more </button>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"> Read more </button>
 
-            <!--Modal--> 
+              <!--Modal--> 
 
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">About post</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat sed ipsum vel scelerisque. Praesent dictum, risus quis luctus eleifend, ligula nulla pharetra tellus, ut egestas libero est sit amet justo. Nulla fermentum, ex eu luctus tincidunt, ligula enim fringilla purus, ut rutrum nibh magna vel sem. </p>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">About post</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat sed ipsum vel scelerisque. Praesent dictum, risus quis luctus eleifend, ligula nulla pharetra tellus, ut egestas libero est sit amet justo. Nulla fermentum, ex eu luctus tincidunt, ligula enim fringilla purus, ut rutrum nibh magna vel sem. </p>
 
-                    <p> Pellentesque sit amet lectus hendrerit, semper lacus at, sollicitudin dui. Cras neque libero, pretium eget nunc ut, rhoncus consectetur mi. Donec lacinia aliquet magna vitae pharetra. Suspendisse potenti. Vestibulum augue purus, bibendum euismod tristique vestibulum, aliquam nec dolor. Mauris non turpis erat. Suspendisse urna enim, mattis non mattis sit amet, porta id tortor. Aenean in odio tortor. </p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <p> Pellentesque sit amet lectus hendrerit, semper lacus at, sollicitudin dui. Cras neque libero, pretium eget nunc ut, rhoncus consectetur mi. Donec lacinia aliquet magna vitae pharetra. Suspendisse potenti. Vestibulum augue purus, bibendum euismod tristique vestibulum, aliquam nec dolor. Mauris non turpis erat. Suspendisse urna enim, mattis non mattis sit amet, porta id tortor. Aenean in odio tortor. </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col mb-4">
-        <div class="card h-100">
-          <img src="sources/img1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-title">Post #6</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, tenetur</p>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="sources/img1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Post #6</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, tenetur</p>
 
-             <!--Tags-->
+               <!--Tags-->
 
-            <p class="card-text"> Categories:
-            <span class="badge badge-secondary"> People </span>
-            <span class="badge badge-secondary"> Tech </span>
-            <span class="badge badge-secondary"> Future </span></p>
+              <p class="card-text"> Categories:
+              <span class="badge badge-secondary"> People </span>
+              <span class="badge badge-secondary"> Tech </span>
+              <span class="badge badge-secondary"> Future </span></p>
 
-            <!--Modal button-->
+              <!--Modal button-->
 
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"> Read more </button>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"> Read more </button>
 
-            <!--Modal--> 
+              <!--Modal--> 
 
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">About post</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat sed ipsum vel scelerisque. Praesent dictum, risus quis luctus eleifend, ligula nulla pharetra tellus, ut egestas libero est sit amet justo. Nulla fermentum, ex eu luctus tincidunt, ligula enim fringilla purus, ut rutrum nibh magna vel sem. </p>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">About post</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat sed ipsum vel scelerisque. Praesent dictum, risus quis luctus eleifend, ligula nulla pharetra tellus, ut egestas libero est sit amet justo. Nulla fermentum, ex eu luctus tincidunt, ligula enim fringilla purus, ut rutrum nibh magna vel sem. </p>
 
-                    <p> Pellentesque sit amet lectus hendrerit, semper lacus at, sollicitudin dui. Cras neque libero, pretium eget nunc ut, rhoncus consectetur mi. Donec lacinia aliquet magna vitae pharetra. Suspendisse potenti. Vestibulum augue purus, bibendum euismod tristique vestibulum, aliquam nec dolor. Mauris non turpis erat. Suspendisse urna enim, mattis non mattis sit amet, porta id tortor. Aenean in odio tortor. </p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <p> Pellentesque sit amet lectus hendrerit, semper lacus at, sollicitudin dui. Cras neque libero, pretium eget nunc ut, rhoncus consectetur mi. Donec lacinia aliquet magna vitae pharetra. Suspendisse potenti. Vestibulum augue purus, bibendum euismod tristique vestibulum, aliquam nec dolor. Mauris non turpis erat. Suspendisse urna enim, mattis non mattis sit amet, porta id tortor. Aenean in odio tortor. </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
                   </div>
                 </div>
               </div>
+              
             </div>
-            
           </div>
         </div>
       </div>
+
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
